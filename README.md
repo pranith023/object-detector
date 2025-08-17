@@ -14,8 +14,7 @@ A Streamlit-based web application for real-time object detection using YOLOv8 mo
 - **Start/Stop controls** for detection management
 - **Responsive web interface** built with Streamlit
 
-## Demo
-live demo: [https://share.streamlit.io/your_username/your_app_name/main.py](https)
+
 
 ## 📋 Requirements
 
@@ -56,7 +55,7 @@ streamlit run app.py
 
 ### 2. Configure Detection Settings
 - **Camera Stream URL**: Enter your IP camera's video stream URL
-  - Default: `http://10.110.192.2:8081/video`
+  - Default: `http://10.100.192.2:8081/video`
   - Format: `http://<camera-ip>:<port>/video`
 - **Confidence Threshold**: Adjust the slider (0.25 - 0.9)
   - Lower values = More detections (may include false positives)
